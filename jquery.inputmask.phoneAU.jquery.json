@@ -1,0 +1,33 @@
+{
+  "name": "jquery.inputmask.phoneAU",
+  "version": "1.0.0",
+  "title": "jQuery Inputmask - phoneAU Mask",
+  "description": "A jquery.inputmask extension for Australian phone numbers",
+  "keywords": [
+    "input",
+    "form",
+    "inputmask",
+    "mask",
+    "phone",
+    "australia"
+  ],
+  "author": {
+    "name": "James Wyse",
+    "url": "http://github.com/jameswyse/jquery.inputmask.phoneAU"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://jameswyse.mit-license.org"
+    }
+  ],
+  "bugs": "http://github.com/jameswyse/jquery.inputmask.phoneAU/issues",
+  "homepage": "http://github.com/jameswyse/jquery.inputmask.phoneAU",
+  "docs": "http://github.com/jameswyse/jquery.inputmask.phoneAU",
+  "download": "http://github.com/jameswyse/jquery.inputmask.phoneAU",
+  "demo": "http://codepen.io/jameswyse/pen/EaPNKX",
+  "dependencies": {
+    "jquery": ">=1.7",
+    "jquery.inputmask": ">=3.1.44"
+  }
+}

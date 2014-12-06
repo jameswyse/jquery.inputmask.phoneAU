@@ -1,0 +1,47 @@
+{
+  "name": "jquery.inputmask.phoneAU",
+  "version": "1.0.0",
+  "description": "Australian phone number mask for jquery.inputmask",
+  "main": "./src/phoneAU.js",
+  "author": "James Wyse <james@jameswyse.net>",
+  "license": "MIT",
+  "homepage": "http://github.com/jameswyse/jquery.inputmask.phoneAU",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jameswyse/jquery.inputmask.phoneAU.git"
+  },
+  "bugs": {
+    "url": "https://www.github.com/jameswyse/jquery.inputmask.phoneAU/issues",
+    "email": "james@jameswyse.net"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "^2.1.1",
+    "jquery.inputmask": "^3.1.44",
+    "pkg-cli": "^0.3.0",
+    "smokestack": "^2.0.0",
+    "tap-spec": "^2.1.1",
+    "tape": "^3.0.3",
+    "uglify-js": "^2.4.15"
+  },
+  "scripts": {
+    "build": "./build.sh",
+    "test": "browserify test.js | smokestack | tap-spec"
+  },
+  "keywords": [
+    "jquery",
+    "inputmask",
+    "jquery-plugin",
+    "input",
+    "mask",
+    "australia",
+    "oz",
+    "phone",
+    "telephone",
+    "mobile",
+    "landline",
+    "validate",
+    "validator",
+    "form"
+  ]
+}
