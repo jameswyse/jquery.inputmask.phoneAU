@@ -9,6 +9,40 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>jquery.inputmask.phoneau</title>
+    <style>
+    body {
+      padding: 40px;
+    }
+
+    input {
+      display: block;
+      font-size: 2em;
+      line-height: 1em;
+      padding: 20px;
+      outline: none;
+      border: 2px solid #ccc;
+      width: 420px;
+    }
+
+    input.valid {
+      border-color: green;
+    }
+
+    input.invalid {
+      border-color: red;
+    }
+
+    #value {
+      width: 420px;
+      height: 60px;
+      padding: 0 20px;
+      background: #eee;
+      border: 2px solid #ccc;
+      margin-top: 10px;
+      line-height: 56px;
+      font-size: 1.5em;
+    }
+    </style>
   </head>
 
   <body>
@@ -43,9 +77,10 @@
 <h2>
 <a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
 
-<p><a href="http://codepen.io/jameswyse/pen/EaPNKX"><img src="https://cdn.rawgit.com/jameswyse/jquery.inputmask.phoneAU/master/screenshot.gif" alt="codepen"></a></p>
+<input type="tel" name="phone" id="phone" placeholder="Phone number...">
+<pre id="value"></pre>
 
-<p><a href="http://codepen.io/jameswyse/pen/EaPNKX">http://codepen.io/jameswyse/pen/EaPNKX</a></p>
+<p><a href="http://codepen.io/jameswyse/pen/EaPNKX">Or on codepen.io: http://codepen.io/jameswyse/pen/EaPNKX</a></p>
 
 <h2>
 <a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h2>
@@ -108,7 +143,25 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='//cdn.rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.min.js'></script>
+    <script src='//cdn.rawgit.com/jameswyse/jquery.inputmask.phoneAU/master/dist/phoneAU-latest.min.js'></script>
 
+    <script>
+    $(function () {
+      $('#phone')
+      .inputmask('phoneAU')
+      .on('keyup blur', function () {
+        var $input = $(this);
+        var value  = $input.val();
+        var valid  = $input.hasClass('valid');
+        var status = ' (' + (valid ? 'valid' : 'invalid') + ')';
+
+        $('#value').text(value + (value.length ? status : ''));
+      })
+      .blur();
+    });
+    </script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
