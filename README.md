@@ -2,25 +2,25 @@
 jquery.inputmask.phoneAU
 ========================
 
-A [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) extension for masking Australian phone numbers. Handles both landline (02 1234 5678) and mobile (0412 345 677) styles.
+A [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) extension for masking Australian phone numbers.
+
+Handles both landline (02 1234 5678) and mobile (0412 345 677) styles.
+
 
 ## Demo
 [![codepen](https://cdn.rawgit.com/jameswyse/jquery.inputmask.phoneAU/master/screenshot.gif)](http://codepen.io/jameswyse/pen/EaPNKX)
 
-http://codepen.io/jameswyse/pen/EaPNKX
+- [Open on github.io](http://jameswyse.github.io/jquery.inputmask.phoneAU/)
+- [Open on codepen.io](http://codepen.io/jameswyse/pen/EaPNKX)
 
-## Dependencies
-- [jQuery](https://github.com/jquery/jquery) - `npm i jquery`
-- [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) - `npm i jquery.inputmask`
 
-## Install
+## Available on NPM
 [![NPM](https://nodei.co/npm/jquery.inputmask.phoneau.png)](https://nodei.co/npm/jquery.inputmask.phoneau/)
 
 ```bash
-$ npm install --save jquery jquery.inputmask jquery.inputmask.phoneau
+$ npm install --save jquery.inputmask.phoneau
 ```
 
-Or clone this repo and include `dist/phoneAU-{version}.min.js` directly.
 
 ## Usage
 ```javascript
@@ -28,6 +28,12 @@ $(function () {
   $('input[type=tel]').inputmask('phoneAU');
 });
 ```
+
+
+## Dependencies
+- [jQuery](https://github.com/jquery/jquery) - `npm i jquery`
+- [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) - `npm i jquery.inputmask`
+
 
 ## License
 The MIT License (MIT)
