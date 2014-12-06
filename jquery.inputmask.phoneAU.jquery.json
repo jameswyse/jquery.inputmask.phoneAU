@@ -1,7 +1,7 @@
 {
-  "name": "jquery.inputmask.phoneAU",
+  "name": "jquery.inputmask.phoneau",
   "version": "1.0.0",
-  "title": "jQuery Inputmask - phoneAU Mask",
+  "title": "jQuery Inputmask - phoneAU",
   "description": "A jquery.inputmask extension for Australian phone numbers",
   "keywords": [
     "input",

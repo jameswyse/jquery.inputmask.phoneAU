@@ -1,4 +1,4 @@
-[![npm](http://img.shields.io/npm/v/jquery.inputmask.phoneAU.svg?style=flat-square)](http://npmjs.org/package/jquery.inputmask.phoneAU) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://jameswyse.mit-license.org) [![npm](http://img.shields.io/david/jameswyse/jquery.inputmask.phoneAU.svg?style=flat-square)](http://npmjs.org/package/jquery.inputmask.phoneAU) [![npm](http://img.shields.io/david/dev/jameswyse/jquery.inputmask.phoneAU.svg?style=flat-square)](http://npmjs.org/package/jquery.inputmask.phoneAU) ![codeship](http://img.shields.io/codeship/955cb530-9866-0131-e2be-6e7fe8324e3d.svg?style=flat-square)
+[![npm](http://img.shields.io/npm/v/jquery.inputmask.phoneau.svg?style=flat-square)](http://npmjs.org/package/jquery.inputmask.phoneau) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://jameswyse.mit-license.org) [![npm](http://img.shields.io/david/jameswyse/jquery.inputmask.phoneau.svg?style=flat-square)](http://npmjs.org/package/jquery.inputmask.phoneau) [![npm](http://img.shields.io/david/dev/jameswyse/jquery.inputmask.phoneau.svg?style=flat-square)](http://npmjs.org/package/jquery.inputmask.phoneau) ![codeship](http://img.shields.io/codeship/955cb530-9866-0131-e2be-6e7fe8324e3d.svg?style=flat-square)
 jquery.inputmask.phoneAU
 ========================
 
@@ -14,10 +14,10 @@ http://codepen.io/jameswyse/pen/EaPNKX
 - [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) - `npm i jquery.inputmask`
 
 ## Install
-[![NPM](https://nodei.co/npm/jquery.inputmask.phoneAU.png)](https://nodei.co/npm/jquery.inputmask.phoneAU/)
+[![NPM](https://nodei.co/npm/jquery.inputmask.phoneau.png)](https://nodei.co/npm/jquery.inputmask.phoneau/)
 
 ```bash
-$ npm install --save jquery jquery.inputmask jquery.inputmask.phoneAU
+$ npm install --save jquery jquery.inputmask jquery.inputmask.phoneau
 ```
 
 Or clone this repo and include `dist/phoneAU-{version}.min.js` directly.
@@ -28,7 +28,6 @@ $(function () {
   $('input[type=tel]').inputmask('phoneAU');
 });
 ```
-
 
 ## License
 The MIT License (MIT)
