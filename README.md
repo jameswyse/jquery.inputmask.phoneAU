@@ -2,9 +2,7 @@
 jquery.inputmask.phoneAU
 ========================
 
-A [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) extension for masking Australian phone numbers.
-
-Handles both landline (02 1234 5678) and mobile (0412 345 677) styles.
+A [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) extension for Australian phone numbers.
 
 
 ## Demo
